@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - Tripifive.com</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;700&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/Tripifive.png" alt="Tripifive Logo" style="height: 60px;"> Tripifive
+            </a>
+            <a href="blog1.html" class="btn custom-btn d-lg-none ms-auto me-4">Blogs</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
+                    <li class="nav-item">    
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Locate us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="events.html">Events</a>
+                    </li>
+                </ul>
+                <a href="blog1.html" class="btn custom-btn d-lg-block d-none">Blogs</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+
+    <section class="ticket-section section-padding">
+        <div class="section-overlay"></div>
+            <div class="container">
+                <h1 class="text-center text-white mb-5" style="margin-top: 10px; color: white;" >Our Events</h1>
+                <div id="eventCarousel" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/1.jpg" class="d-block w-100 img-fluid rounded" alt="Event Photo 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/2.jpg" class="d-block w-100 img-fluid rounded" alt="Event Photo 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/3.jpg" class="d-block w-100 img-fluid rounded" alt="Event Photo 3">
+                        </div>
+                    </div>
+                    <br>
+                    <p class="text-justify text-white">Tripifive is not just a travel company, but a comprehensive solution for all your travel and event management needs. With a team of dedicated professionals, we excel in organizing a wide array of events, ranging from commercial gatherings to private celebrations.
+
+                        Our expertise lies in meticulously planning and executing events to perfection. Whether you’re looking to host a high-energy concert or planning a destination wedding in an exotic locale, we’ve got you covered. Our team is adept at handling every aspect of event management, ensuring that your event unfolds seamlessly.
+                        
+                        In addition to event management, we also offer a variety of travel services. We understand that every journey is unique, and we strive to make your travel experience as memorable as possible. From booking accommodations and transportation to planning sightseeing itineraries, we take care of all the details so you can focus on enjoying your trip.
+                        
+                        At Tripifive, we believe in delivering top-notch services in a timely manner. No matter how big or small your event or travel needs are, we are committed to providing you with an experience that exceeds your expectations. With Tripifive, you can rest assured that your event or journey will be handled with the utmost professionalism and care.</p>
+                    <br>
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#eventCarousel" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#eventCarousel" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#eventCarousel" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h5 class="site-footer-title mb-3" style="margin-top: 20px;">Have a question?</h5>
+                    <p class="text-white d-flex justify-content-center">
+                        <a href="https://wa.me/918928143301" class="site-footer-link me-3">
+                            918928153301
+                        </a>
+                        <a href="mailto:hello@company.com" class="site-footer-link">
+                            owner@tripifive.com
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/events.js"></script>
+</body>
+
+</html>
